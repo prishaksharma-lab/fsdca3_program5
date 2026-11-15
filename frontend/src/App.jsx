@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "./app.css";
 
-const API = import.meta.env.VITE_API_URL || "https://fsdca3-program5.onrender.com/api";
+const API = import.meta.env.VITE_API_URL || "https://fsdca3-program5.onrender.com/";
 
 function App() {
   const [products, setProducts] = useState([]);
